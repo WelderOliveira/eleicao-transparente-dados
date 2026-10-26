@@ -9,6 +9,7 @@ Os dados são parciais e mudam a cada nova versão publicada pelo TSE (veja `sou
 | Arquivo | Conteúdo |
 |---|---|
 | `macro_brasil.json` | Totais nacionais, fontes de recurso, gasto por partido e por macro-categoria |
+| `partidos.json` | `{SIGLA: {number, color, text}}` — cores aproximadas por partido (não oficiais), já com contraste para fundo escuro |
 | `search_index.json` | `[{i, n, p, c, u}]` — id, nome de urna, partido, cargo, UF |
 | `candidatos/<id>.json` | Contas de um candidato (`candidate.*`) |
 | `fotos/<id>.jpg` | Foto oficial do candidato (TSE, ~161×225 px, ~5 KB). 3 candidaturas não têm foto |
