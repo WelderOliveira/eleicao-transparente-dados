@@ -11,6 +11,7 @@ Os dados são parciais e mudam a cada nova versão publicada pelo TSE (veja `sou
 | `macro_brasil.json` | Totais nacionais, fontes de recurso, gasto por partido e por macro-categoria |
 | `search_index.json` | `[{i, n, p, c, u}]` — id, nome de urna, partido, cargo, UF |
 | `candidatos/<id>.json` | Contas de um candidato (`candidate.*`) |
+| `fotos/<id>.jpg` | Foto oficial do candidato (TSE, ~161×225 px, ~5 KB). 3 candidaturas não têm foto |
 
 Base URL: `https://welderoliveira.github.io/eleicao-transparente-dados/`
 
